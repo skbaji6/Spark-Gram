@@ -1,0 +1,7 @@
+telethon
+apscheduler
+beautifulsoup4
+pymongo
+dnspython
+tgcrypto
+requests

@@ -1,0 +1,37 @@
+{
+  "name": "Spark User Bot",
+  "description": "Spark user Bot to automate user activities",
+  "keywords": [
+    "telegram"
+  ],
+  "stack": "container",
+  "repository": "https://github.com/skbaji6/Spark",
+  "success_url": "https://github.com/skbaji6/Spark",
+  "website": "https://github.com/skbaji6/Spark",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "MONGO_DB_URL": {
+      "description": "Mongo Database URL Ex: mongodb+srv://user:password@host.net/test",
+      "value": ""
+    },
+    "USER_SESSION_STRING": {
+      "description": "user session String generate by using TelegramSessionStringGen.py",
+      "value": ""
+    }
+  }
+}
