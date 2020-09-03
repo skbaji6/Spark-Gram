@@ -21,7 +21,7 @@ async def _(event):
         global no_of_posts_to_read
         no_of_posts_to_read = int(event.text.split(" ")[1])
     scheduler = AsyncIOScheduler()
-    scheduler.add_job(tmv_scrape, 'interval', minutes=10, id='tmv_scrape_job', args=[spark,db])
+    scheduler.add_job(tmv_scrape, 'interval', minutes=60, id='tmv_scrape_job', args=[spark,db])
     scheduler.start()
 
 
